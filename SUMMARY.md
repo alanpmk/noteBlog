@@ -10,3 +10,8 @@
 ## 🈸 PHP
 
 * [👋 PHP document](php/php-document.md)
+
+## 🇨🇳 学汉语
+
+* [1 HSK1](xue-han-yu/hsk1/README.md)
+  * [📚 Từ vựng](xue-han-yu/hsk1/tu-vung.md)
