@@ -15,3 +15,9 @@
 
 * [1 HSK1](xue-han-yu/hsk1/README.md)
   * [📚 Từ vựng](xue-han-yu/hsk1/tu-vung.md)
+* [2 HSK2](xue-han-yu/hsk2/README.md)
+  * [📚 Từ vựng](xue-han-yu/hsk2/tu-vung.md)
+* [3 HSK3](xue-han-yu/hsk3.md)
+* [4 HSK4](xue-han-yu/hsk4.md)
+* [5 HSK5](xue-han-yu/hsk5.md)
+* [6 HSK6](xue-han-yu/hsk6.md)
