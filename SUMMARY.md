@@ -25,3 +25,4 @@
 ## Other
 
 * [➕ 6 Algorithms that Software Developers Must Know](other/6-algorithms-that-software-developers-must-know.md)
+* [➕ Some Questions for Senior Frontend Developer](other/some-questions-for-senior-frontend-developer.md)
