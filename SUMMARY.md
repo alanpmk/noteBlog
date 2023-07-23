@@ -21,3 +21,7 @@
 * [4 HSK4](xue-han-yu/hsk4.md)
 * [5 HSK5](xue-han-yu/hsk5.md)
 * [6 HSK6](xue-han-yu/hsk6.md)
+
+## Other
+
+* [➕ 6 Algorithms that Software Developers Must Know](other/6-algorithms-that-software-developers-must-know.md)
