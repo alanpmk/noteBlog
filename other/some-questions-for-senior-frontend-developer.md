@@ -2,7 +2,7 @@
 
 I’m just exploring some of the questions I’ve had, some I can answer, some I can’t. Here’s the summary.
 
-**1. Can you explain the concept of closure in JavaScript, and give an example of how you have used it in a project?**
+### **1. Can you explain the concept of closure in JavaScript, and give an example of how you have used it in a project?**
 
 A closure in JavaScript is a function that has access to variables in its outer scope, even after the outer function has returned. Closures allow you to preserve state and create private variables that can only be accessed by code within the closure.
 
@@ -23,7 +23,7 @@ In this example, the `outerFunction` returns the `innerFunction`, which has acce
 
 I’ve used closures in various projects to create stateful objects that can maintain their state across multiple function calls, without relying on global variables. For example, I’ve used closures to create simple “counter” objects that can keep track of the number of times a function has been called, or to create objects that maintain a private list of items that can only be manipulated through a specific set of methods.
 
-**2. Can you discuss the differences between synchronous and asynchronous programming in JavaScript, and explain when you would use each approach?**
+### **2. Can you discuss the differences between synchronous and asynchronous programming in JavaScript, and explain when you would use each approach?**
 
 Synchronous programming in JavaScript refers to a blocking or sequential execution of code. When a synchronous function is executed, the next line of code will not be executed until the current line of code has completed its execution. In synchronous programming, the code is executed line by line, in the order it is written.
 
@@ -98,7 +98,7 @@ Hello from asyncFunc
 
 In this example, the asynchronous nature of the `setTimeout` function allows us to execute multiple tasks in parallel, improving the performance and responsiveness of our code.
 
-**3. Can you explain how `this` works in JavaScript, and how you would use it to access an object's properties from within a method?**
+### **3. Can you explain how `this` works in JavaScript, and how you would use it to access an object's properties from within a method?**
 
 In JavaScript, `this` is a keyword that refers to the current object. The value of `this` is determined at runtime based on the context in which the function is called.
 
@@ -133,7 +133,7 @@ console.log(person.getInfo()); // Output: 'Name: John Doe, Age: 30'
 
 In this example, the `getInfo` method uses `this` to access the `name` and `age` properties of the `person` object and returns a string with the person's information.
 
-**4. Can you discuss the concepts of hoisting and scope in JavaScript, and explain how they impact your code?**
+### **4. Can you discuss the concepts of hoisting and scope in JavaScript, and explain how they impact your code?**
 
 In JavaScript, “hoisting” refers to the behavior where variable and function declarations are moved to the top of their respective scopes, regardless of where they appear in the code. This means that you can use a variable or call a function before you declare it.
 
@@ -168,7 +168,7 @@ In this code, `x` is declared in the global scope and can be accessed both withi
 
 Understanding hoisting and scope is important because it can affect the behavior of your code, and can lead to unexpected results if not handled correctly. It’s important to be aware of the scope of your variables and to declare variables in the correct scope so that they are accessible where you need them.
 
-**5. Can you explain how you would use JavaScript to make an API call, and how you would handle errors and timeouts?**
+### **5. Can you explain how you would use JavaScript to make an API call, and how you would handle errors and timeouts?**
 
 To make an API call in JavaScript, you can use the `fetch` API or a library such as Axios or jQuery.
 
@@ -212,7 +212,7 @@ axios.get('https://api.example.com/data', { timeout: 1000 })
 
 In this example, the `axios.get` method is used to make a GET request to the API. The `timeout` option is set to 1000 milliseconds (1 second), and the `catch` method is used to handle any errors, including timeouts. The error code `ECONNABORTED` is used to check for timeouts, and a custom error message is displayed if a timeout occurs.
 
-**6. Can you discuss the advantages of using a JavaScript framework, such as React or Vue, and explain how you would use it to build a dynamic user interface?**
+### **6. Can you discuss the advantages of using a JavaScript framework, such as React or Vue, and explain how you would use it to build a dynamic user interface?**
 
 JavaScript frameworks, such as React and Vue, offer several advantages over plain JavaScript for building dynamic user interfaces:
 
